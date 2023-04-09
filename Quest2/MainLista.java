@@ -14,7 +14,7 @@ public class MainLista {
         lista.remover("Bob");
         lista.imprimir();
 
-        lista.remover("Eve"); // Tentando remover um aluno que não existe
+        lista.remover("Eve"); 
         lista.imprimir();
     }
 }

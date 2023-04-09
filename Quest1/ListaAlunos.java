@@ -5,8 +5,6 @@ public class ListaAlunos {
     public ListaAlunos() {
         this.primeiro = null;
     }
-
-    // Método para inserir um aluno no fim da lista
     public void inserirAluno(String nome, int idade) {
         Aluno novoAluno = new Aluno(nome, idade);
 
@@ -20,8 +18,6 @@ public class ListaAlunos {
             atual.proximo = novoAluno;
         }
     }
-
-    // Método para remover um aluno da lista
     public void removerAluno(String nome) {
         if (primeiro == null) {
             System.out.println("A lista está vazia!");
@@ -47,7 +43,6 @@ public class ListaAlunos {
         }
     }
 
-    // Método para imprimir os elementos da lista
     public void imprimirLista() {
         if (primeiro == null) {
             System.out.println("A lista está vazia!");
